@@ -1,0 +1,633 @@
+#vc_ui-panel-templates.vc_active:before {
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+div#wpb_wpbakery .vc_navbar,
+.wp-admin .vc_ui-panel-header-container {
+    background: #4f6df5;
+}
+
+div#wpb_wpbakery .vc_navbar {
+    border-bottom: none;
+}
+
+.wp-admin .vc_ui-panel-window-inner {
+    border-radius: 4px;
+    box-shadow: none;
+    overflow: hidden;
+}
+
+.wp-admin .vc_ui-panel-header .vc_ui-panel-header-heading {
+    font-weight: 500;
+}
+
+.wp-admin .vc_general.vc_ui-tabs-line .vc_ui-tabs-line-trigger {
+    box-sizing: border-box;
+    display: block;
+    text-transform: none;
+    border: 1px solid transparent;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    font-family: inherit;
+    padding: 16px 12px;
+    margin: 0;
+    outline: 0;
+    transition-property: color,background,border;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    border-radius: 4px 4px 0 0;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: left;
+}
+
+.templates-filter-list {
+    float: left;
+    width: 20%;
+    overflow-y: scroll;
+    position: relative;
+    left: 0;
+    height: 100%;
+    background: #fff;
+    z-index: 100;
+    max-height: calc(100vh - 300px);
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.templates-filter-list li {
+    width: 100%;
+    font-weight: 600;
+    padding: 13px;
+    cursor: pointer;
+    margin:0;
+    font-size: 13px;
+    position: relative;
+}
+.templates-filter-list li.active,
+.templates-filter-list li:hover {
+    background: #f2f2f2;
+    color: #4f6df5;
+}
+
+.templates-filter-list .block-counter {
+    position: absolute;
+    right: 40px;
+    background: #ececec;
+    width: 19px;
+    height: 19px;
+    display: block;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 90px;
+    color: #5e5e5e;
+    font-size: 10px;
+    top: 14px;
+    letter-spacing: -0.5px;
+}
+
+.templates-filter-list li.active .block-counter,
+.templates-filter-list li:hover .block-counter {
+    background: #4f6df5;
+    color: #fff;
+}
+
+.keydesign_templates_list {
+    width: 80%!important;
+    float: right!important;
+    max-height: calc(100vh - 300px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+}
+
+.vc_templates-template-type-keydesign_templates {
+    float: left;
+    width: 29%;
+    margin: 1% 0 2% 3%!important;
+    border-radius: 4px;
+    transition: 0.3s;
+    overflow: hidden;
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
+    border: none;
+    position: relative;
+}
+
+.vc_templates-template-type-keydesign_templates:hover {
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
+}
+
+.vc_templates-template-type-keydesign_templates:hover h5  {
+    background: #f2f2f2;
+    color: #4f6df5;
+}
+
+.vc_templates-template-type-keydesign_templates img {
+    width:100%;
+    height:auto;
+    float: left;
+}
+
+.vc_templates-template-type-keydesign_templates h5 {
+    font-size: .83em;
+    padding: 1.67em 0;
+    float: left;
+    width: 100%;
+    transition:0.3s;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.vc_templates-template-type-keydesign_templates .vc_ui-list-bar-item {
+    border:none!important;
+    display: block;
+    position: initial!important;
+}
+
+.vc_templates-template-type-keydesign_templates .vc_ui-list-bar-item-trigger {
+    padding: 18px;
+    font-weight: 600;
+    outline: 0;
+    transition-property: color;
+    color: #5e5e5e;
+    /* float: left; */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    font-size: 0;
+    display: block;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+
+.vc_templates-template-type-keydesign_templates .vc_ui-list-bar-item-actions {
+    display:none
+}
+
+.wp-admin .composer-switch .logo-icon,
+.wp-admin .composer-switch a,
+.wp-admin .composer-switch a.wpb_switch-to-front-composer,
+.wp-admin .composer-switch a:visited.wpb_switch-to-front-composer,
+.wp-admin #wpb_visual_composer .vc_navbar,
+.wp-admin .vc_welcome .vc_ui-button,
+.wp-admin .vc_navgar-frontend.vc_navbar {
+    background-color: #4f6df5;
+}
+
+.wp-admin #vc_no-content-add-text-block {
+    display: none;
+}
+
+.kdadmin-dashboard-box {
+    width: calc(33.33% - 15px);
+    display: inline-block;
+    margin-right: 15px;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    float: left;
+    min-height: 280px;
+    border-radius: 5px;
+}
+
+.kdadmin-panel-column {
+    display:inline-block;
+    width: 33%;
+    box-sizing: border-box;
+    border: 1px solid #e5e7f2;
+    padding: 45px;
+    padding-top: 70px;
+    padding-bottom: 85px;
+    border-radius: 5px;
+    background: #f7f9fb;
+    margin-top: 15px;
+    width: calc(33.3% - 15px);
+    margin-right: 15px;
+    float: left;
+}
+
+.kdadmin-panel-column:last-child {
+    margin-right:0;
+}
+
+.kdadmin-dashboard-box:last-child {
+    margin-right:0;
+}
+
+.kdadmin-dashboard .dashicons {margin-right:7px; color:#4f6df5; }
+
+.kdadmin-activate-column input[type="submit"],
+.admin-color-fresh .ui-widget-content .ui-state-default.kdadmin-button,
+.kdadmin-import .ocdi__gl-item-button,
+.kdadmin-import .ocdi__gl-item-button.button-primary,
+.kdadmin-dashboard .kdadmin-button {
+    background: #fff;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 5px;
+    background: #4f6df5;
+    border-color: #4f6df5;
+    box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 36px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
+    min-width: 135px;
+    text-align: center;
+    transition:0.25s;
+}
+
+.kdadmin-dashboard p {
+    margin-bottom:20px;
+}
+
+.kdadmin-activate-column input[type="submit"]:hover,
+.admin-color-fresh .ui-widget-content .ui-state-default.kdadmin-button:hover,
+.kdadmin-import .ocdi__gl-item-button:hover,
+.kdadmin-dashboard .kdadmin-button:hover {
+    background: #333;
+    border-color: #333;
+}
+
+.kdadmin-dashboard-box ul a {
+    text-decoration:none;
+    color: #4f6df5;
+}
+
+.kdadmin-dashboard-box ul a:hover {
+    color:#333;
+}
+
+.kdadmin-welcome-box {
+    padding: 15px 25px;
+    border-radius: 5px;
+    float: left;
+    padding-bottom: 37px;
+    width: calc(100% - 15px);
+    box-sizing: border-box;
+}
+.kdadmin-import .ocdi__gl-item-button,
+.kdadmin-dashboard .kdadmin-button.kdadmin-second-button {
+   background: none;
+   color: #4f6df5;
+}
+
+.kdadmin-dashboard .kdadmin-button.kdadmin-second-button:hover {
+    background: #4f6df5;
+    border-color: #4f6df5;
+    color: #fff;
+}
+
+.kdadmin-import .ocdi__gl-item-container {
+    margin-right: -20px;
+    min-width: 100%!important;
+}
+
+
+.kdadmin-import .ocdi__gl-header {
+    display: inline-block;
+    width: calc(100% - 50px);
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+}
+
+.kdadmin-import .ocdi__gl-search-input {
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    margin: 0;
+    margin-top: 11px;
+    background: #f7f9fb!important;
+    box-shadow: none!important;
+    border-radius: 4px;
+    outline: none;
+    padding: 0;
+    padding-left: 20px;
+    width: 300px;
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #e5e7f2;
+}
+
+.kdadmin-import .ocdi__gl-navigation {
+    width: calc(100% - 300px);
+}
+
+.kdadmin-import .ocdi__gl-navigation li.active a, .ocdi__gl-navigation li.active a:hover {
+    border-bottom: 4px solid #4f6df5;
+}
+
+.kdadmin-import .ocdi__gl-navigation li a {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.kdadmin-import .ocdi__gl-navigation li a:hover {
+    color: #4f6df5;
+}
+
+.kdadmin-import .ocdi__gl-header {
+    margin-bottom: 30px;
+}
+
+.kdadmin-import .kdadmin-welcome-box {
+    width: calc(100% - 10px);
+    margin-bottom: 29px;
+    margin-top: 15px;
+    box-shadow: none;
+    padding-bottom: 20px;
+}
+
+.wp-core-ui .kdadmin-import .notice.is-dismissible {
+    padding-right: 38px;
+    position: relative;
+    background: #f7f9fb!important;
+    border: 1px solid #e5e7f2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: none;
+    border-radius: 4px;
+    border-left: 4px solid #4f6df5;
+}
+
+
+.wp-core-ui .kdadmin-import .notice.is-dismissible p {
+    margin: 10px 0px;
+}
+
+.kdadmin-import .kdadmin-welcome-box ul {
+    list-style: inherit;
+    padding-left: 20px;
+}
+
+
+.kdadmin-import .ocdi__gl-item-footer {
+    margin: 0;
+    padding: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #f7f9fb;
+    border-top: 1px solid #e5e7f2;
+    height: 40px;
+}
+
+
+.kdadmin-import .ocdi__gl-item {
+    border: 1px solid #e5e7f2;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+
+.kdadmin-import .ocdi__gl-item-button.button-primary {
+    height: 40px;
+    margin-left: 10px;
+}
+
+.kdadmin-import .ocdi__gl-item-button {
+    height:40px;
+}
+
+.kdadmin-import .ocdi__gl-item-button:hover {
+    color:#fff;
+}
+
+.kdadmin-import .ocdi__gl-item-footer--with-preview h4.ocdi__gl-item-title {
+    width: auto;
+    margin: 0;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+#js-ocdi-modal-content {
+    width: 600px!important;
+}
+
+.ocdi__modal-image-container {
+    height: auto!important;
+}
+
+
+.leadengine_page_import-demos .ui-dialog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100102;
+    background-color: #fff;
+    box-shadow: none;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.leadengine_page_import-demos .ui-dialog-titlebar {
+    background: #f7f9fb;
+    border-bottom: 1px solid #e5e7f2;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+    padding: 0 36px 0 16px;
+}
+
+.leadengine_page_import-demos .ui-button.ui-dialog-titlebar-close {
+    background: none!important;
+}
+
+.leadengine_page_import-demos .ui-dialog-buttonpane {
+    padding: 10px;
+    background: #f7f9fb;
+    border-top: 1px solid #e5e7f2;
+}
+
+
+.admin-color-fresh .ui-widget-content .ui-state-default.kdadmin-button {
+    height:40px;
+    margin-left:10px;
+}
+
+
+#vc_add-new-element:before {
+    content: 'Add Element'
+}
+
+#vc_templates-editor-button:before {
+    content: 'Add Block'
+}
+
+#vc_templates-editor-button,
+#vc_add-new-element {
+    min-width: 150px;
+    text-transform: capitalize;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border-left: 1px solid #fff;
+    font-size: 14px;
+}
+
+#vc_templates-editor-button {
+    border-right: 1px solid #fff;
+}
+
+#vc_templates-editor-button i,
+#vc_add-new-element i {display: none;}
+
+#vc_templates-more-layouts span {
+    display: none;
+}
+
+#vc_templates-more-layouts:after {
+  content: 'Add Block';
+}
+
+.kdadmin-activate-column {
+    border: 1px solid #e5e7f2;
+    padding: 30px;
+    border-radius: 5px;
+    background: #f7f9fb;
+    margin-top: 35px;
+    position: relative;
+    width: calc(100% - 15px);
+    box-sizing: border-box;
+}
+
+.kdadmin-activate-column form {
+    margin-top: 18px;
+}
+
+.kdadmin-activate-column h3 {
+    color: #ff1053;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.kdadmin-activate-column h3.activated {
+    color: #4f6df5;
+    margin-bottom: 0;
+}
+
+.kdadmin-dashboard .activated-subtitle  {
+    margin-bottom: 0;
+    color: #23282d;
+    font-weight: inherit;
+    margin-top: 8px;
+}
+
+.activated-subtitle span {
+    font-weight: 600;
+}
+
+.kdadmin-activate-column a.deactivate-leadengine, .kdadmin-dashboard .deactivate-leadengine .dashicons {
+    color: #ff1053;
+}
+
+.kdadmin-activate-column a.deactivate-leadengine:hover, .kdadmin-dashboard .deactivate-leadengine:hover .dashicons {
+    color: #1f1f1f;
+}
+
+.kdadmin-activate-column a.deactivate-leadengine {
+    position:absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.kdadmin-activate-column input[type="text"] {border: 1px solid #e5e7f2;min-width: 300px;box-shadow: none;outline: none;background: #fff;line-height: 38px;border-radius: 4px;padding-left: 10px;}
+
+.kdadmin-activate-column a {
+    text-decoration:none;
+    font-weight:600;
+    color:#1f1f1f;
+    outline: none;
+}
+
+.kdadmin-activate-column a:hover {
+    color: #4f6df5;
+}
+
+.kdadmin-activate-column.kdadmin-activate-column-import {margin-top: 20px;}
+.kdadmin-activate-column.kdadmin-activate-column-import h3   {
+    margin-bottom: 0;
+}
+
+.kdadmin-code-error {
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+.leadengine_page_theme-options .ui-checkboxradio-label .ui-checkboxradio-icon {
+  display: none;
+}
+
+@media (max-width:1024px) {
+    .kdadmin-dashboard-box {
+        width: 100%;
+        min-height: inherit;
+    }
+    .kdadmin-import .ocdi__gl-navigation,
+    .kdadmin-import .ocdi__gl-item-footer--with-preview h4.ocdi__gl-item-title,
+    .kdadmin-import .kdadmin-welcome-box,
+    .kdadmin-welcome-box,
+    .kdadmin-activate-column,
+    .kdadmin-panel-column {
+        width: 100%;
+    }
+    .kdadmin-activate-column a.deactivate-leadengine {
+    position: relative;
+    right: inherit;
+    top: inherit;
+    margin-top: 20px;
+    display: block;
+    }
+    .kdadmin-import .ocdi__gl-header {padding-bottom: 20px;}
+}
+
+body.block-editor-page:not(.compose-mode) .vc_ui-panel-window {
+    display:none!important;
+}

@@ -1,0 +1,348 @@
+<wpml-config>
+	<built-with-page-builder>/\[vc_row\]/</built-with-page-builder>
+		<shortcode-list>tek_alertbox,tek_appgallery,tek_appgallery_single,tek_button,tek_calltoaction,tek_contentbox,tek_countdown,tek_counter,tek_eventsession,tek_extended_tabs_single,tek_iconbox,tek_map,tek_photobox,tek_photocarousel_single,tek_piechart,tek_priceblock,tek_pricing,tek_process_single,tek_progress_bar,tek_reviewcarousel_single,tek_reviews,tek_sectiontitle,tek_sliding_box_single,tek_featuresections_single,tek_team,tek_teamcarousel_single,tek_testimonialcards_single,tek_testimonials_single,tek_textrotator,tek_video</shortcode-list>
+    <admin-texts>
+        <key name="redux_ThemeTek">
+			<key name="tek-business-phone" />
+			<key name="tek-business-email" />
+			<key name="tek-business-opening-hours" />
+            <key name="tek-header-button-text" />
+			<key name="tek-modal-title" />
+			<key name="tek-modal-subtitle" />
+			<key name="tek-scroll-id" />
+			<key name="tek-button-new-page" />
+			<key name="tek-modal-contactf7-formid" />
+			<key name="tek-footer-text" />
+			<key name="tek-portfolio-related-posts-title" />
+			<key name="tek-blog-subtitle" />
+			<key name="tek-blog-header-form-id" />
+			<key name="tek-related-posts-title" />
+			<key name="tek-404-title" />
+			<key name="tek-404-subtitle" />
+			<key name="tek-404-back" />
+			<key name="tek-maintenance-title" />
+			<key name="tek-maintenance-content" />
+			<key name="tek-maintenance-contactf7-formid" />
+        </key>
+    </admin-texts>
+	<custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+    </custom-types>
+	<taxonomies>
+        <taxonomy translate="1">portfolio-category</taxonomy>
+    </taxonomies>
+	<custom-fields>
+		<custom-field action="copy-once">_themetek_page_transparent_navbar</custom-field>
+		<custom-field action="copy-once">_themetek_page_showhide_title_section</custom-field>
+		<custom-field action="copy-once">_themetek_page_showhide_breadcrumbs</custom-field>
+		<custom-field action="copy-once">_themetek_page_particles</custom-field>
+		<custom-field action="translate">_themetek_page_subtitle</custom-field>
+		<custom-field action="copy-once">page_title_align</custom-field>
+		<custom-field action="copy-once">_themetek_page_title_color</custom-field>
+		<custom-field action="copy-once">_themetek_page_titlebar_background</custom-field>
+		<custom-field action="copy-once">_themetek_page_bgcolor</custom-field>
+		<custom-field action="copy-once">_themetek_page_top_padding</custom-field>
+		<custom-field action="copy-once">_themetek_page_bottom_padding</custom-field>
+	</custom-fields>
+	<shortcodes>
+		<shortcode>
+            <tag>tek_alertbox</tag>
+            <attributes>
+                <attribute>ab_message</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_appgallery</tag>
+            <attributes>
+                <attribute>ag_title</attribute>
+                <attribute>ag_description</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_appgallery_single</tag>
+            <attributes>
+                <attribute type="media-ids">ag_screenshot</attribute>
+                <attribute type="media-url">ag_screenshot_ext</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_button</tag>
+            <attributes>
+                <attribute>button_text</attribute>
+                <attribute encoding="vc_link" type="link">button_link</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_calltoaction</tag>
+            <attributes>
+                <attribute>cta_title</attribute>
+                <attribute>cta_subtitle</attribute>
+                <attribute encoding="vc_link" type="link">cta_button_link</attribute>
+				<attribute>cta_button_text</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_contentbox</tag>
+            <attributes>
+                <attribute>cb_title</attribute>
+                <attribute>cb_subtitle</attribute>
+                <attribute>cb_content_text</attribute>
+				<attribute encoding="vc_link" type="link">cb_box_link</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_countdown</tag>
+            <attributes>
+                <attribute>cd_text_days</attribute>
+                <attribute>cd_text_hours</attribute>
+                <attribute>cd_text_minutes</attribute>
+				<attribute>cd_text_seconds</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_counter</tag>
+            <attributes>
+                <attribute>count_units</attribute>
+                <attribute>count_description</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_eventsession</tag>
+            <attributes>
+                <attribute>es_session_title</attribute>
+                <attribute>es_session_description</attribute>
+                <attribute>es_speaker_name</attribute>
+                <attribute>es_speaker_position</attribute>
+                <attribute>es_link_text</attribute>
+				<attribute encoding="vc_link" type="link">es_link</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_extended_tabs_single</tag>
+            <attributes>
+                <attribute>services_title</attribute>
+				<attribute type="media-ids">services_image</attribute>
+                <attribute type="media-url">ext_image</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_iconbox</tag>
+            <attributes>
+                <attribute>title</attribute>
+				<attribute>text_box</attribute>
+				<attribute>link_text</attribute>
+				<attribute encoding="vc_link" type="link">iconbox_link</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_map</tag>
+            <attributes>
+                <attribute>map_business_name</attribute>
+                <attribute>map_business_address</attribute>
+                <attribute>map_business_email</attribute>
+                <attribute>map_business_phone</attribute>
+                <attribute>map_business_opening_hours</attribute>
+                <attribute>map_schedule_day_name</attribute>
+                <attribute>map_schedule_day_hours</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_photobox</tag>
+            <attributes>
+                <attribute>phb_title</attribute>
+                <attribute>phb_description</attribute>
+                <attribute type="media-ids">phb_image</attribute>
+                <attribute type="media-url">ext_image</attribute>
+				<attribute encoding="vc_link" type="link">phb_box_link</attribute>
+				<attribute>phb_button_text</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_photocarousel_single</tag>
+            <attributes>
+                <attribute>phb_title</attribute>
+                <attribute>phb_description</attribute>
+                <attribute type="media-ids">phb_image</attribute>
+                <attribute type="media-url">ext_image</attribute>
+				<attribute encoding="vc_link" type="link">phb_box_link</attribute>
+				<attribute>phb_button_text</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_piechart</tag>
+            <attributes>
+                <attribute>pc_title</attribute>
+                <attribute>pc_description</attribute>
+				<attribute encoding="vc_link" type="link">pc_link</attribute>
+				<attribute>pc_link_text</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_priceblock</tag>
+            <attributes>
+                <attribute>pb_title</attribute>
+                <attribute>pb_description</attribute>
+                <attribute>pb_price</attribute>
+                <attribute>pb_currency</attribute>
+                <attribute>pb_other_currency</attribute>
+                <attribute>pb_currency_position</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_pricing</tag>
+            <attributes>
+                <attribute>pricing_title</attribute>
+                <attribute>pricing_price</attribute>
+                <attribute>pricing_time</attribute>
+                <attribute>pricing_currency</attribute>
+                <attribute>pricing_other_currency</attribute>
+                <attribute>pricing_currency_position</attribute>
+                <attribute type="media-ids">pricing_img</attribute>
+                <attribute type="media-url">ext_image</attribute>
+                <attribute>pricing_row</attribute>
+                <attribute>pricing_button_text</attribute>
+                <attribute type="link">pricing_button_link</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_process_single</tag>
+            <attributes>
+                <attribute>pss_title</attribute>
+                <attribute>pss_description</attribute>
+                <attribute>pss_number</attribute>
+				<attribute encoding="vc_link" type="link">pss_link</attribute>
+				<attribute>pss_link_text</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_progress_bar</tag>
+            <attributes>
+                <attribute>pb_title</attribute>
+                <attribute>pb_description</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_reviewcarousel_single</tag>
+            <attributes>
+                <attribute>rw_author_name</attribute>
+                <attribute>rw_author_desc</attribute>
+                <attribute>rw_review_message</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_reviews</tag>
+            <attributes>
+                <attribute>rw_author_name</attribute>
+                <attribute>rw_author_desc</attribute>
+                <attribute>rw_review_message</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_sectiontitle</tag>
+            <attributes>
+                <attribute>st_title</attribute>
+                <attribute>st_subtitle</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_sliding_box_single</tag>
+            <attributes>
+                <attribute>sb_title</attribute>
+                <attribute>sb_description</attribute>
+				<attribute encoding="vc_link" type="link">sb_button_link</attribute>
+				<attribute>sb_button_text</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_featuresections_single</tag>
+            <attributes>
+                <attribute>fss_title</attribute>
+                <attribute>fss_subtitle</attribute>
+				<attribute encoding="vc_link" type="link">fss_section_link</attribute>
+				<attribute>fss_nav_label</attribute>
+				<attribute type="media-ids">fss_featured_image</attribute>
+				<attribute type="media-url">featured_ext_image</attribute>
+				<attribute type="link">fss_image_link</attribute>
+				<attribute type="media-ids">fss_photo_gallery</attribute>
+				<attribute type="media-url">gallery_ext_image</attribute>
+				<attribute type="media-url">fss_video_url</attribute>
+				<attribute type="media-ids">fss_video_cover</attribute>
+				<attribute type="media-url">video_ext_image</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_team</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>position</attribute>
+                <attribute>description</attribute>
+                <attribute type="media-ids">image</attribute>
+                <attribute type="media-url">ext_image</attribute>
+                <attribute>tm_phone</attribute>
+                <attribute>tm_phone_label</attribute>
+                <attribute>tm_email</attribute>
+                <attribute>tm_email_label</attribute>
+                <attribute>facebook_url</attribute>
+                <attribute>instagram_url</attribute>
+                <attribute>twitter_url</attribute>
+                <attribute>google_url</attribute>
+                <attribute>linkedin_url</attribute>
+                <attribute>xing_url</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_teamcarousel_single</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>position</attribute>
+                <attribute>description</attribute>
+                <attribute type="media-ids">image</attribute>
+                <attribute type="media-url">ext_image</attribute>
+                <attribute>facebook_url</attribute>
+                <attribute>instagram_url</attribute>
+                <attribute>twitter_url</attribute>
+                <attribute>google_url</attribute>
+                <attribute>linkedin_url</attribute>
+				<attribute>xing_url</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_testimonialcards_single</tag>
+            <attributes>
+                <attribute>tcards_author_name</attribute>
+                <attribute>tcards_author_job</attribute>
+                <attribute type="media-ids">tcards_author_image</attribute>
+                <attribute type="media-url">ext_image</attribute>
+                <attribute>tcards_testimonial_text</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_testimonials_single</tag>
+            <attributes>
+                <attribute>tt_quote</attribute>
+                <attribute>tt_title</attribute>
+                <attribute>tt_position</attribute>
+                <attribute type="media-ids">tt_image</attribute>
+                <attribute type="media-url">ext_image</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_textrotator</tag>
+            <attributes>
+                <attribute>tr_text_fields</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>tek_video</tag>
+            <attributes>
+                <attribute type="media-url">video_url</attribute>
+                <attribute type="media-url">video_title</attribute>
+                <attribute type="media-url">video_url_mp4</attribute>
+                <attribute type="media-url">video_url_ogg</attribute>
+                <attribute type="media-url">video_url_webm</attribute>
+                <attribute type="media-ids">video_image</attribute>
+                <attribute type="media-url">video_image_ext</attribute>
+            </attributes>
+        </shortcode>
+	</shortcodes>
+</wpml-config>
