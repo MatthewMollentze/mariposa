@@ -7,7 +7,7 @@ Smart Home Automation Product Reseller.
 
 https://mariposa.matthewmollentze.com/
 
-![mariposa](https://mariposa.matthewmollentze.com/wp-content/uploads/2022/12/mariposa_snapshot.png)
+![mariposa-screenshot](https://mariposa.matthewmollentze.com/wp-content/uploads/2022/12/Mariposa_Snapshot.png)
 
 ## Features
  - WordPress
